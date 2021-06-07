@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*header*/
+header{
+    color: black;
+}
+
+header .topbar{
+    height: 80px;
+    line-height: 80px;
+}
+
+.col{
+    float: left;
+}
+
+
+.w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn{
+    background-color: rgb(0, 97, 189);
+    color: white;
+    padding: 5px 20px;
+}
+
+
+#logo{
+    vertical-align: middle;
+}
+.topbar .main-nav,
+.topbar .main-nav li{
+    display: inline-block;
+}
+.topbar .main-nav li{
+    margin: 0 20px;
+}
+
+.topbar .main-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.main-nav a{
+    text-decoration: none;
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
+} 
+
+/*header*/
+.jumbotron{
+    background-color: cyan;
+    padding-top: 100px;
+}
+
+.title{
+    padding-left: 130px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 900;
+}
