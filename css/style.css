@@ -16,30 +16,57 @@ body{
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
-
-/*header*/
-header{
-    color: black;
-}
-
-header .topbar{
-    height: 80px;
-    line-height: 80px;
-}
+/*unità di misura*/
 
 .col{
     float: left;
 }
-
+.w-30{
+    width: 30%;
+}
 
 .w-50{
     width: 50%;
 }
+.w-70{
+    width: 70%;
+}
+
+.w-33{
+    width: calc( 100% / 3);
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px
+}
+
+.mt-50{
+    margin-top: 50px;
+} 
+.mb-30{
+    margin-bottom: 30px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -56,16 +83,37 @@ header .topbar{
     background-color: rgb(0, 97, 189);
     color: white;
     padding: 5px 20px;
+    border:rgb(0, 97, 189);
 }
 
+.btn-col{
+    background-color: rgb(0, 97, 189);
+    color: white;
+    padding: 10px 50px;
+    margin: 20px 0;
+    border:rgb(0, 97, 189);
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    color: black;
+}
+
+header .topbar{
+    height: 80px;
+    line-height: 80px;
+}
 
 #logo{
     vertical-align: middle;
 }
+
 .topbar .main-nav,
 .topbar .main-nav li{
     display: inline-block;
 }
+
 .topbar .main-nav li{
     margin: 0 20px;
 }
@@ -87,8 +135,9 @@ header .topbar{
 
 /*header*/
 .jumbotron{
-    background-color: cyan;
-    padding-top: 100px;
+    background-color: rgb(100, 146, 231);
+    padding-top: 50px;
+    height: 600px;
 }
 
 .title{
@@ -99,4 +148,104 @@ header .topbar{
 h1{
     font-size: 3em;
     font-weight: 900;
+}
+
+#img-jumbo {
+    height: 450px;
+    padding-left: 30px;
+}
+
+.title-content {
+    font-size: 13px;
+}
+.start-free{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.arrow{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/*colonne 2 section*/
+
+#plans{
+    margin-top: 200px;
+}
+.item{
+    border: 1px solid black;
+    
+}
+
+.item .text-center{
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+}
+#plans .plans-list i{
+    padding: 3px;
+}
+
+#plans .details-list i{
+    color: darkcyan;
+}
+
+#plans h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+#plans h3, .price, .date, li{
+    margin: 20px 0;
+}
+
+.price{
+    font-weight: 700;
+}
+
+.date{
+    color: rgb(0, 98, 255);
+}
+.buy{
+    margin: 50px 0;
+}
+
+#plans article{
+    margin: 20px 0;
+    padding: 0 20px;
+} 
+#plans article ul{
+    list-style-type: none;
+} 
+
+#plans .option{
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.plans-list .details{
+    margin: 40px 0;
+}
+
+
+.radio{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid rgb(16, 126, 190);
+}
+
+.radio .radio-select{
+    border: 5px solid;
+}
+
+#plans hr{
+    background-color: rgb(122, 121, 121);
+    margin: 40px 0;
+    border: 0;
+    width: 20%;
+    height: 1px;   
 }
