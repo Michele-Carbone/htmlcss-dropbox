@@ -394,10 +394,7 @@ h1{
     display: block;
 }
 
-.w-boxes-33{
-    width: 33%;
-}
-
+/*boxes*/
 #boxes{
     margin-top: 50px;
 }
@@ -441,3 +438,58 @@ h1{
     width: 35%;
     position: absolute;
 }
+
+/*business*/
+#business{
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+#business h4{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(44, 3, 83);
+    margin: 100px 100px;
+    text-align: left;
+}
+
+#business a{
+    display: inline-block;
+    margin-top: 115px;
+    margin-left: 100px;
+
+}
+
+.btn-white{ 
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    border:white;
+}
+
+/*question section*/
+
+#question h4{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 60px 0px;
+}
+
+.frequent-questions{
+    margin: 40px 30px 40px 0;
+    font-weight: 700;
+    display: block;
+}
+
+#question i{
+    margin-left: 320px;
+    font-weight: 900;
+    text-align: right;
+}
+
+#question .distance{
+    margin-bottom: 100px;
+}
+
