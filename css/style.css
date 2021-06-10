@@ -249,3 +249,90 @@ h1{
     width: 20%;
     height: 1px;   
 }
+
+/*Team 3 section*/
+
+#team{
+    margin: 100px 0;
+    border: 1px solid gray;
+}
+
+#team h2{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 15px 457px;
+}
+
+#team span{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 200px 20px 10px;
+}
+#team h4, 
+#team p{
+    margin: 20px 10px;
+}
+#team a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 40px;
+    margin-left: 380px;
+    text-decoration: none;
+}
+
+/*Partner*/
+#partner{
+    margin-top: 100px;
+}
+#partner .partner-img img{
+    width: 100%;
+}
+
+#partner h2{
+    margin: 20px 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#partner p{
+    margin: 50px 20px;
+    line-height: 30px;
+}
+
+#partner a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/*Option business*/
+#option-business{
+    margin: 50px 0;
+}
+
+#option-business h4{
+    margin:30px 0;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#option-business p{
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+#option-business h2{   
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+#option-business .logo-business img{
+    width: 70%;
+    margin-top: 40px;
+}
+
+/*loghi*/
